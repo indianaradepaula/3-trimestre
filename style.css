@@ -1,7 +1,12 @@
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
+}
 
 body {
-    background-color: url('img/bg-desktop.webp');
-    font-family: Bai Jamjurre
+    background: url('img/bg-desktop.webp');
+    font-family: Bai Jamjuree;
 }
 
 #container {
@@ -10,20 +15,21 @@ body {
 
 .cartao {
     margin: 1rem 1rem;
-    background-color: aqua; 
+    background-color: aqua;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
 
-.cartao_conteudo{
+.cartao_conteudo {
     text-align: center;
     /* background-color: aquamarine; */
     height: 100%;
 }
 
-.cartao_conteudo h3{
-    background-color: tomato;
+.cartao_conteudo h3 {
+    color: var(--text-color);
+    border: ;
     text-align: left;
     padding: 0.5rem;
     position: absolute;
